@@ -16,7 +16,6 @@ public class BlueRentalPage {
     public WebElement email;
     @FindBy(id = "dropdown-basic-button")
     public WebElement verify;
-
     @FindBy(xpath = "//*[@role='alert']")
     public WebElement hataMesaji;
     @FindBy(xpath = "//*[@type='submit']")
